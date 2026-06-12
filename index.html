@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Escolar</title>
+    <style>
+        /* Estilos básicos para la clase de CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 20px;
+            color: #333;
+        }
+        h2 { color: #2c3e50; }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px 0;
+            width: 95%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover { background-color: #2980b9; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th { background-color: #2c3e50; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <h2>📊 Sistema de Control Escolar</h2>
+
+    <!-- Formulario para agregar alumnos -->
+    <div class="container">
+        <h3>Registrar Alumno</h3>
+        <input type="text" id="nombre" placeholder="Nombre completo del estudiante">
+        <input type="number" id="nota" placeholder="Calificación (0 - 100)">
+        <button type="button">Guardar Alumno</button>
+    </div>
+
+    <!-- Tabla de datos vacía para llenar en el Tema 3 y 4 -->
+    <h3>Lista de Estudiantes</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Estudiante</th>
+                <th>Asistencia</th>
+                <th>Calificación</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carlos Mendoza</td>
+                <td>Presente</td>
+                <td>85</td>
+                <td>Aprobado</td>
+            </tr>
+            <tr>
+                <td>Ana Rodríguez</td>
+                <td>Ausente</td>
+                <td>45</td>
+                <td>Reprobado</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
