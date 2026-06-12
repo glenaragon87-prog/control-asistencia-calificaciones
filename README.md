@@ -13,7 +13,8 @@ El sistema permite a los profesores gestionar el registro de asistencia diaria y
 ## Tecnologías propuestas
 * HTML5 / CSS3
 * JavaScript
- Propósito del Proyecto
+  
+ ## Propósito del Proyecto
 El sistema permite a los profesores gestionar el registro de asistencia diaria y las notas finales de los estudiantes.
 
 ## Requisitos preliminares
@@ -21,6 +22,3 @@ El sistema permite a los profesores gestionar el registro de asistencia diaria y
 * Cuenta activa en GitHub.
 * Un editor de código (como VS Code).
 
-##  Tecnologías propuestas
-* HTML5 / CSS3
-* JavaScript
